@@ -9,7 +9,7 @@ int main() {
     int *pi2 = &a[1][1];
     int **pipi = &pi;
     pi = pi2;
-    printf("%d\n", *pipi);
+    printf("%d\n", **pipi);
 
 //    pi = pi + 1; // работаем c указателем
 //
