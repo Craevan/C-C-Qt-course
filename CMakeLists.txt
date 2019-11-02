@@ -3,4 +3,4 @@ project(C_C_Qt_course)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C_C_Qt_course src/1/HomeWork/helloWorld.c)
+add_executable(C_C_Qt_course src/5/Practice/Example5.c)
