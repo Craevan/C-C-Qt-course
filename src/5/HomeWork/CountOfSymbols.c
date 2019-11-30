@@ -7,7 +7,7 @@ unsigned Freq[256];
 
 int main( void )
 {
-    char Name[12];
+    char *Name;
     FILE *F;
 
     printf("Введите имя файла >> ");
