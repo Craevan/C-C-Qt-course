@@ -2,7 +2,6 @@
 #include "board.h"
 #include "ai.h"
 #include "State.h"
-#include <QPainter>
 #include <QMouseEvent>
 #include <QMessageBox>
 
