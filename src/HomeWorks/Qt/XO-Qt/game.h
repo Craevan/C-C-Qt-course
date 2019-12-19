@@ -10,7 +10,7 @@ class Game : public QDialog {
     Q_OBJECT
 
 public:
-    Game(QWidget *parent = 0);
+    Game(QWidget *parent = nullptr);
     ~Game();
 
 private:
