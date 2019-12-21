@@ -15,6 +15,7 @@ bool GameView::playGame() {
     while(!controller.gameOver()){
         std::string playerTurn = controller.getTurn();
         std::string move;
+        system("clear");
 
         do {
             if(controller.outOfBounds()){

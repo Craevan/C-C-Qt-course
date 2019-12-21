@@ -1,0 +1,1 @@
+g++ -o XO-CLI ./model/Status.h ./model/Player.h ./model/Player.cpp ./model/GameModel.h ./model/GameModel.cpp ./controller/GameController.h ./controller/GameController.cpp ./view/./GameView.h ./view/GameView.cpp ./PlayTheGame.cpp
