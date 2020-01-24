@@ -1,11 +1,11 @@
-#include "server.h"
+#include "Application.h"
 
-#include <QCoreApplication>
-
-int main(int argc, char *argv[])
+int main( int argc, char *argv[] )
 {
-    QCoreApplication a(argc, argv);
-    Server srv;
+    Application app( argc, argv );
 
-    return a.exec();
+    if( !app.init() )
+        return 1;
+
+    return app.exec();
 }
